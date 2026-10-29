@@ -9,3 +9,9 @@ exam/
 data/
 *.csv
 *.pbix
+EDITING*.md
+private/
+internal/
+tmp/
+backups/
+*.bak
