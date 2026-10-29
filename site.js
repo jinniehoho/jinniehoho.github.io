@@ -108,9 +108,9 @@ const translations = {
     "method": "Datenprüfung → Bereinigung → Validierung → Python/pandas → PostgreSQL/SQL → Power BI → Interpretation."
   },
   "ko": {
-    "title": "홍진경 | 데이터 분석 포트폴리오",
+    "title": "데이터 분석 포트폴리오",
     "skip": "본문으로 건너뛰기",
-    "label": "홍진경 / Data & Analytics",
+    "label": "Data & Analytics",
     "headline": "Junior Data Analyst · Business Intelligence",
     "intro": "SQL, Python, Power BI로 비즈니스 질문을 분석합니다. 데이터 품질 점검과 검증을 분석 과정의 기본으로 삼습니다.",
     "view": "프로젝트 둘러보기 ↓",
@@ -130,7 +130,7 @@ const translations = {
     "steamDescription": "소규모 인디 스튜디오가 추가로 조사할 만한 Steam 게임 세그먼트는 무엇일까요?",
     "completed": "보고서 공개",
     "education": "학력 및 교육",
-    "degree": "쾰른대학교 비교문학 석사 · 고려대학교 독일문화학과 및 불어불문학과.",
+    "degree": "독일 쾰른대학교 비교문학 석사",
     "tools": "사용 가능한 도구",
     "approachTitle": "분석 과정",
     "approach": "Python / Pandas로 데이터 점검·전처리 → PostgreSQL로 분석 모델링·집계 → 6페이지 Power BI 보고서로 시장 비교와 후보 세그먼트 검토를 연결했습니다.",
@@ -163,7 +163,7 @@ const translations = {
   }
 };
 // Add only contact details you want to make public. Empty entries stay hidden.
-const contact = { email: "", linkedin: "", cv: "" };
+const contact = { email: "hong.jinkyeong@gmail.com", linkedin: "www.linkedin.com/in/jingyeonghong", cv: "" };
 let language = new URLSearchParams(location.search).get('lang') || 'en';
 function setLanguage(value) {
   if (!Object.hasOwn(translations, value)) value = 'en';
